@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="assets/img/flavicon.ico" type="image/x-icon" />
+    <title>MAHAFIDZ</title>
+  </head>
+  <body>
+    <header>
+      <section id="navbar">
+        <div class="white-logo text-center bg-dark pt-4 pb-2">
+          <a href="/index.html">
+            <img src="assets/img/white-logo.png" alt="MAHAFIDZ" width="200px" />
+          </a>
+        </div>
+        <nav class="navbar navbar-expand-lg text-light bg-dark bg-body-tertiary navbar-warna shadow-sm nav-underline">
+          <div class="container-fluid">
+            <!-- Tombol "hamburger" untuk mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/portofolio.html">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/inspirasi.html">Inspirasi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/video.html">Video</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/client.html">Client</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown link </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <section class="profil">
+      <div class="container text-justify pt-5">
+        <div id="profilCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-bs-target="#profilCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#profilCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#profilCarousel" data-bs-slide-to="2"></li>
+          </ul>
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                  <div class="mb-2">
+                    <a href="/profil.html"><small class="text-muted">PROFIL</small></a>
+                  </div>
+                  <div class="title mb-3">
+                    <a href="profil.html"><h2>Profil M Abdurrohman Alhafidz</h2></a>
+                  </div>
+                  <a href="profil.html">
+                    <p>
+                      M Abdurrohman Alhafidz, salah satu pengusaha muda yang sukses di Indonesia. Ia adalah pendiri dari perusahaan jasa pembuatan software ERP (Enterprise Resource Planning) bernama IDMETAFORA (PT Metafora Indonesia
+                      Teknologi).
+                    </p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-12 profil-border">
+                  <a href="profil.html"><img src="assets/img/profil.png" alt="MAHAFIDZ" class="img-fluid" /></a>
+                </div>
+              </div>
+            </div>
+            <!-- Tambahkan slide profil lainnya di sini -->
+            <!-- Contoh slide kedua -->
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                  <div class="mb-2">
+                    <a href="news.html"><small class="text-muted">NEWS</small></a>
+                  </div>
+                  <div class="title mb-3">
+                    <a href="news1.html"><h2>Bangun Bisnis Sejak Umur 14 Tahun</h2></a>
+                  </div>
+                  <a href="news1.html">
+                    <p>
+                      Bagi sebagian orang, punya bisnis di usia yang masih sangat muda tapi sudah punya bisnis dengan omset miliaran rupiah adalah impian mungkin hanya sedikit yang bisa mencapainya, M Abdurrohman Alhafidz adalah salah satu
+                      dari orang yang mencapai hal tersebut dalam usia yang masih sangat muda.
+                    </p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-12 profil-border">
+                  <a href="news1.html"><img src="assets/img/news1.png" alt="MAHAFIDZ" class="img-fluid" /></a>
+                </div>
+              </div>
+            </div>
+            <!-- Tambahkan slide profil ketiga di sini -->
+            <!-- Contoh slide ketiga -->
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                  <div class="mb-2">
+                    <a href="inspirasi.html"><small class="text-muted">INSPIRATIF</small></a>
+                  </div>
+                  <div class="title mb-3">
+                    <a href="inspirasi2.html"><h2>Pengusaha Muda Inspiratif</h2></a>
+                  </div>
+                  <a href="inspirasi2.html">
+                    <p>
+                      Ialah M Abdurrohman Alhafidz, salah satu pengusaha muda yang sukses di Indonesia. Ia adalah pendiri dari perusahaan jasa pembuatan software ERP (Enterprise Resource Planning) bernama IDMETAFORA (PT Metafora Indonesia
+                      Teknologi). Pengusaha muda yang memulai bisnis di Yogyakarta ini mulai belajar bahasa pemrograman pada tahun 2009 di usia 14 tahun.
+                    </p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-12 profil-border">
+                  <a href="inspirasi2.html"><img src="assets/img/inspirasi.png" alt="MAHAFIDZ" class="img-fluid" /></a>
+                </div>
+              </div>
+            </div>
+            <!-- Contoh slide ketiga -->
+            <!-- <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-md-6 col-12">
+                  <div class="mb-2">
+                    <a href="inspirasi.html"><small class="text-muted">INSPIRATIF</small></a>
+                  </div>
+                  <div class="title mb-3">
+                    <a href="inspirasi2.html"><h2>Pengusaha Muda Inspiratif</h2></a>
+                  </div>
+                  <a href="inspirasi2.html">
+                    <p>
+                      Ialah M Abdurrohman Alhafidz, salah satu pengusaha muda yang sukses di Indonesia. Ia adalah pendiri dari perusahaan jasa pembuatan software ERP (Enterprise Resource Planning) bernama IDMETAFORA (PT Metafora Indonesia
+                      Teknologi). Pengusaha muda yang memulai bisnis di Yogyakarta ini mulai belajar bahasa pemrograman pada tahun 2009 di usia 14 tahun.
+                    </p>
+                  </a>
+                </div>
+                <div class="col-md-6 col-12 profil-border-video video-size">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/UOrQV7r_fX8"
+                    title="IDMETAFORA - Cerita dibalik 5 Tahun Perjalanan PT Metafora Indonesia Teknologi - Part 1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                    class=""
+                  ></iframe>
+                </div>
+              </div>
+            </div> -->
+            <!-- Contoh slide ketiga -->
+          </div>
+          <!-- Controls -->
+          <a class="carousel-control-prev" href="#profilCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next control" href="#profilCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" ariahidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <div class="container pt-5">
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          <h2 class="text-center mb-4 mt-5">News</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="news-item profil-border" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300">
+              <a href="/news1.html"><img src="assets/img/news1.png" alt="News 1" class="img-fluid" /></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="news-item" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300">
+              <a href="/news1.html">
+                <h3>Modal Uang Saku Bangun Bisnis?</h3>
+                <p>
+                  Bagi sebagian orang, punya bisnis di usia yang masih sangat muda tapi sudah punya bisnis dengan omset miliaran rupiah adalah impian mungkin hanya sedikit yang bisa mencapainya, M Abdurrohman Alhafidz adalah salah satu dari
+                  orang yang mencapai hal tersebut dalam usia yang masih sangat muda. Dialah M Abdurrohman Alhafidz, CEO dari PT Metafora Indonesia Teknologi (IDMETAFORA).
+                </p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inspirasi">
+      <div class="container pt-3">
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+          <h2 class="text-center mb-4">Inspirasi</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="inspirasi-item" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="300">
+              <a href="inspirasi2.html">
+                <h3>Pengusaha Muda Inspiratif</h3>
+                <p>
+                  Ialah M Abdurrohman Alhafidz, salah satu pengusaha muda yang sukses di Indonesia. Ia adalah pendiri dari perusahaan jasa pembuatan software ERP (Enterprise Resource Planning) bernama IDMETAFORA (PT Metafora Indonesia
+                  Teknologi). Pengusaha muda yang memulai bisnis di Yogyakarta ini mulai belajar bahasa pemrograman pada tahun 2009 di usia 14 tahun.
+                </p></a
+              >
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="inspirasi-item profil-border" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300">
+              <a href="inspirasi2.html"> <img src="assets/img/inspirasi.png" alt="inspirasi" class="img-fluid" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="client">
+      <div class="container pt-2 pb-5" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="300" data-aos-offset="200">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>Our Client</h1>
+              <p>Beberapa perusahaan/organisasi yang telah menggunakan jasa kami</p>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/logo-kabupaten-pemalang.png" alt="client kabupaten pemalang" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/kementrian-perhubungan.png" alt="client kementrian perhubungan" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/star-group.png" alt="client star group" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/bu-tjitro.png" alt="client bu tjitro" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/pertamina.png" alt="client pertamina" class="img-fluid" />
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center mt-2">
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/logo-karang-anyar-kab.png" alt="client karanganyar kabupaten" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/logo-boyolali-kab.png" alt="client boyolali kabupaten" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/pesona-indonesia.png" alt="client pesona indonesia" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/logo-sucofindo.png" alt="client sucofindo" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/speequal.jpg" alt="client speequal" class="img-fluid" />
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center mt-2">
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/logo-klaten-kab.png" alt="client Klaten kabupaten" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/dinsos-jateng.png" alt="client Dinsos Jateng" class="img-fluid" />
+            </div>
+            <div class="col-md-2 col-4 image-client">
+              <img src="assets/img-client/uin-jogja.png" alt="client UIN Jogja" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center pt-3 pb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-md-start text-center">
+            <h4>Office Address:</h4>
+            <p>Jl. Damai No.7C, Palagan, Sleman, Yogyakarta.</p>
+          </div>
+          <div class="col-md-6 text-md-end text-center">
+            <h6>Temukan kami di media sosial:</h6>
+            <a href="https://www.facebook.com/al.hafidz.79" target="_blank" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/IDMETAFORA" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/mahafidzcom/" target="_blank" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/m-abdurrohman-alhafidz-1b96ab63/" target="_blank" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="pt-3">
+          <p>
+            &copy; Copyright 2023 <a href="#"><strong>MAHAFIDZ</strong></a> All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
