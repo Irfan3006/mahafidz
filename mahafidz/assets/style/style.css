@@ -206,6 +206,10 @@ section#client h1 {
   margin-bottom: 20px;
 }
 
+.p-color {
+  color: #777;
+}
+
 section#client p {
   font-size: 1.2em;
   color: #777;
