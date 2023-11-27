@@ -78,7 +78,9 @@ $(document).ready(function () {
 })(jQuery);
 
 // End
-// Firebase Views Counter
+
+/* Firebase Views Counter
+
 $.each($(".post-view[data-id]"), function (a, e) {
   var l = $(e).parent().find("#postviews").addClass("view-load"),
     i = new Firebase("https://mahafidz-61b68-default-rtdb.firebaseio.com/pages/id" + $(e).attr("data-id"));
@@ -151,3 +153,4 @@ function createUserCookie(userCookieName) {
   expiryDate.setDate(expiryDate.getDate() + userCookieDays);
   document.cookie = userCookieName + "=" + userCookieValue + "; expires=" + expiryDate.toGMTString() + "path=/";
 }
+*/
