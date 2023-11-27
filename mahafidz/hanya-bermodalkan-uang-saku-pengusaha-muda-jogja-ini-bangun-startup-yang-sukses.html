@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="shortcut icon" href="assets/img/flavicon.ico" type="image/x-icon" />
+
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <title>Hanya Bermodalkan Uang Saku, Pengusaha Muda Jogja Ini Bangun Startup yang Sukses</title>
+  </head>
+  <body>
+    <header>
+      <section id="navbar">
+        <div class="white-logo text-center bg-dark pt-3 pb-2">
+          <a href="/index.html">
+            <img src="assets/img/white-logo.png" alt="MAHAFIDZ" width="150px" />
+          </a>
+        </div>
+        <nav class="navbar navbar-expand-md text-light bg-dark bg-body-tertiary navbar-warna shadow-sm nav-underline">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false">
+              <span class="navbar-toggler-icon bg-light"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-light" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/profil.html">Profil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/portofolio.html">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light active" href="/news.html">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/inspirasi.html">Inspirasi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/video.html">Video</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="/client.html">Client</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <section class="profil">
+      <div class="container pt-5 pb-3">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="profil-item post-artikel">
+              <h3>Hanya Bermodalkan Uang Saku, Pengusaha Muda Jogja Ini Bangun Startup yang Sukses</h3>
+
+              <div class="container mt-2 pt-1 pb-1 mb-2">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="/assets/img/admin.png" alt="Foto Admin" width="40" class="rounded-circle img-thumbnail zoom animate__animated animate__backInDown" href="#" />
+                    <h6 style="display: inline; margin-left: 5px; font-size: small" class="p-color">ADMIN |</h6>
+                    <p class="text-muted" style="display: inline"><i class="fa-regular fa-clock" style="color: #dc3545; font-size: 14px"></i> 7 November 2023 |</p>
+                    <!-- <p class="mb-0" id="visits">0</p> -->
+                    <i class="ms-1 me-1 bi bi-eye-fill text-muted"></i><span id="visits1" class="text-muted">0</span>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="sharethis-inline-share-buttons ms-4"></div>
+                  </div>
+                </div>
+              </div>
+
+              <img src="assets/img/news1.png" alt="MAHAFIDZ" class="w-100 img-fluid mt-2 mb-4" />
+              <p>
+                Memulai bisnis di usia yang sangat muda namun sudah memiliki omzet miliaran rupiah merupakan impian bagi semua orang. Tetapi, hanya sedikit yang bisa mewujudkannya. Lahir pada tahun 1995 di Palembang, Sumatera Selatan,
+                pemuda ini mengenyam pendidikan dengan mengambil jurusan teknologi informasi. M Abdurrohman Alhafidz lulus dengan gelar sarjana ilmu komputer dari Universitas Mercu Buana di Yogyakarta pada tahun 2017. M Abdurrohman Alhafidz
+                merupakan direktur utama dari PT Metafora Indonesia Teknologi sekaligus menjadi salah satu orang yang berhasil mewujudkan mimpi tersebut di usia yang terbilang masih sangat muda.
+              </p>
+
+              <p>
+                karakter cerdas, energik, ulet dan kreatif menjadi modal yang mendorong pemuda asal kota Palembang ini untuk mendirikan usahanya di kota dengan ikon tugu, Jogja. Sebelum M Abdurrohman Alhafidz mendirikan perusahaannya di
+                Yogyakarta, ia sudah mulai belajar bahasa pemrograman pada tahun 2009 di usianya yang masih menginjak 14 tahun. Hafidz saat itu masih berstatus sebagai siswa SMK dan mulai terbiasa membangun sistem dan aplikasi. Dengan
+                bermodalkan kemampuannya membangun aplikasi dan website tersebut, Hafidz terus bergerak maju dengan mengikuti berbagai lomba membangun sistem dan web design yang ada. Hafidz telah menjuarai beberapa kompetisi pembuatan
+                website & aplikasi baik di tingkat SMK, menjuarai lomba web design dari telkomsel yang bersifat umum dan diikuti oleh banyak profesional dengan menjadi juara favorit, hingga menjadi perwakilan provinsi Sumatera Selatan untuk
+                berkompetisi antar siswa SMK di tingkat nasional.
+              </p>
+
+              <p>
+                Sebelum menjadi sebuah perusahaan startup besar seperti sekarang, M. Abdurrohman Alhafidz selaku pendiri dari IDMETAFORA merupakan seorang perantau yang merantau ke jogja untuk menuntut ilmu. Hafidz dituntut untuk terus
+                berpikir agar dapat memenuhi segala kebutuhannya selama menempuh kuliah di salah satu perguruan tinggi di kota Jogja karena kiriman uang bulanan dari orang tua yang tak jarang habis sebelum akhir bulan. Mempunyai kehidupan
+                yang serba terbatas dan hanya bermodalkan dari uang jajan harian yang terkumpul. Hafidz membulatkan tekadnya untuk mengembangkan aplikasi ERP (Enterprise Resource Planning) yang pada saat itu dipercaya dapat membantu para
+                pebisnis dalam usahanya. IDMETAFORA merupakan konsultan layanan teknologi Indonesia yang berfokus pada pengembangan ERP (Enterprise Resources Planning), Hafidz berpendapat bahwa ERP adalah aplikasi bisnis yang dapat menjawab
+                beberapa masalah bisnis utama yang kompleks di perusahaan.
+              </p>
+
+              <p>
+                ERP (Enterprise Resource Planning) merupakan salah satu terobosan dalam perkembangan teknologi yang membawa banyak manfaat bagi bisnis. ERP adalah sistem informasi terintegrasi yang memungkinkan Anda mengelola semua aspek
+                operasi perusahaan, termasuk manajemen produksi, inventaris, keuangan, sumber daya manusia, dan lain - lain. Perusahaan dapat menggabungkan berbagai departemen dan fungsi bisnis menjadi satu sistem pusat dengan menggunakan
+                ERP. Ini memberi perusahaan peluang untuk mengoptimalkan proses bisnis, meningkatkan efisiensi, dan mempercepat keputusan. ERP sangat dibutuhkan dalam dunia bisnis ketika perusahaan ingin memperluas bisnisnya, ketika
+                perusahaan mulai menetapkan standar operasional yang ketat dan tetap ingin memegang kendali.
+              </p>
+
+              <p>
+                “Jadi IDMETAFORA ini adalah perusahaan IT berupa layanan jasa dan produk jasa. Kita itu melayani mulai dari pembuatan website, jadi yang kita support dari awal adalah pembuatan website untuk proses marketing.
+                Perusahaan-perusahaan itu kita bantu di sisi digital marketingnya dengan menggunakan website untuk mendapatkan traffic dan leads klien. Perusahaan yang sudah memiliki banyak klien, customer atau pembeli, mereka perlu
+                merapikan sistem operasionalnya. Nah, di operasional inilah kita bantu mereka dengan software IDMETAFORA.” ujar M. Abdurrohman Alhafidz selaku pendiri dari IDMETAFORA.
+              </p>
+
+              <p>
+                Hafidz mengatakan awalnya tidak ada yang tahu tentang IDMETAFORA, namun ia tetap akan berusaha memberikan pelayanan dan hasil yang terbaik setiap kali ada kesempatan. Hafidz juga menjelaskan implementasi ERP biasanya
+                dilakukan secara bertahap oleh departemen-departemen perusahaan, menyesuaikan dengan sifat bisnis klien.
+              </p>
+
+              <p>
+                “Implementasi ERP pada satu perusahaan ke perusahaan lainnya tentu saja berbeda. Ketika kami memiliki pelanggan baru, kami mengidentifikasi dan merencanakan dari departemen mana kami pertama kali mengimplementasikan ERP.”
+                lanjut Hafidz. Selain menyediakan ERP yang memenuhi kebutuhan bisnis di berbagai sektor, IDMETAFORA dan tim bisnisnya senantiasa membuat proses bisnis menjadi lebih mudah dan efisien dari biasanya dengan melakukan business
+                process reengineering untuk menghilangkan komponen - komponen yang biasanya membuat proses bisnis menjadi panjang namun tidak memberikan nilai tambah bagi perusahaan.
+              </p>
+
+              <p>
+                Seiring berjalannya waktu, IDMETAFORA telah melayani banyak sekali klien atau pelanggannya. IDMETAFORA juga mengusung semangat memberdayakan berbagai perusahaan yang ada di Indonesia untuk mengembangkan bisnisnya. Dengan
+                pengalaman puluhan tahun yang dimiliki oleh M. Abdurrohman Alhafidz selaku direktur utama dari PT Metafora Indonesia Teknologi, kini sudah lebih dari ratusan proyek sudah dijalani baik itu dalam negeri maupun luar negeri.
+              </p>
+
+              <p>
+                Sebagai perusahaan yang bergerak dalam bidang solusi jasa ERP, IDMETAFORA juga pernah melayani beberapa Badan Usaha Milik Negara (BUMN) & Badan Usaha Milik Daerah (BUMD) seperti PT Pertamina (Persero), PT Chandra Asri
+                Petrochemical Tbk, PT Madusari Murni Indah Tbk hingga perusahaan multinasional seperti Mubadala Petroleum. Mereka mempercayai IDMETAFORA dalam pengembangan website & sistem informasi manajemen perusahaannya.
+              </p>
+              <p>
+                Dengan banyaknya pengalaman yang telah dijalani IDMETAFORA dalam mengembangkan bisnis jasa pembuatan software ERP. M Abdurrohman Alhafidz beserta timnya telah menjadi inspirasi bagi banyak perusahaan di Indonesia maupun di
+                luar negeri. Hal ini dikarenakan IDMETAFORA telah berhasil membangun reputasi sebagai perusahaan yang kredibel dan terpercaya dengan menawarkan solusi layanan ERP yang inovatif dan berkualitas. Mereka memahami bahwa sangat
+                penting untuk selalu mengupayakan kepuasan pelanggan dan terus berinovasi serta berkembang dalam bisnis agar dapat bertahan di pasar yang kian kompetitif. Oleh karena itu, IDMETAFORA terus berupaya memberikan solusi dan
+                layanan terbaik kepada pelanggan, serta mengembangkan produk baru dan meningkatkan layanan.
+              </p>
+              <p>
+                IDMETAFORA juga memantau perkembangan teknologi dan tren industri yang selalu berubah agar dapat mengikuti perkembangan dan mampu menawarkan solusi layanan ERP yang memuaskan kebutuhan pelanggan. IDMETAFORA juga mengikuti
+                standar dan prosedur yang ketat dalam menjaga kualitas produk dan layanannya serta melatih dan mengembangkan karyawannya untuk meningkatkan kualitas layanan. 
+              </p>
+              <p>M Abdurrohman Alhafidz merupakan seorang pengusaha yang bisa menjadi teladan bahwa usia bukanlah batas untuk memulai bisnis dan jangan takut untuk bermimpi sebesar dan setinggi mungkin. </p>
+            </div>
+            <strong>Jika anda merasa artikel ini bermanfaat, bagikan ke pengikut anda melalui tombol dibawah ini: </strong>
+            <div class="sharethis-inline-share-buttons mt-3 mb-5"></div>
+          </div>
+          <div class="col-lg-4">
+            <div class="post-list">
+              <div class="post">
+                <a href="/video.html">
+                  <iframe
+                    width="960"
+                    height="550"
+                    src="https://www.youtube.com/embed/UOrQV7r_fX8"
+                    title="IDMETAFORA - Cerita dibalik 5 Tahun Perjalanan PT Metafora Indonesia Teknologi - Part 1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                    class="img-fluid"
+                  ></iframe>
+                  <h6><strong>Cerita dibalik 5 Tahun Perjalanan PT Metafora Indonesia Teknologi</strong></h6>
+                  <p class="text-muted" style="display: inline; font-size: 12px">By <span class="fw-bold">Admin</span> |</p>
+                  <p class="text-muted" style="display: inline; font-size: 12px"><i class="fa-regular fa-clock" style="color: #dc3545; font-size: 12px; margin-bottom: 10px"></i> 8 November 2023</p>
+                  <p>Bagaimana cerita dibalik 5 Tahun IDMETAFORA? Temukan rahasianya dalam video ini.</p></a
+                >
+              </div>
+              <div class="post">
+                <a href="/profil.html">
+                  <img src="assets/img/hero-image.png" alt="CEO dari PT Metafora Indonesia Teknologi (IDMETAFORA)" class="img-fluid" />
+                  <h6><strong>Profil M Abdurrohman Alhafidz</strong></h6>
+                  <p class="text-muted" style="display: inline; font-size: 12px">By <span class="fw-bold">Admin</span> |</p>
+                  <p class="text-muted" style="display: inline; font-size: 12px"><i class="fa-regular fa-clock" style="color: #dc3545; font-size: 12px; margin-bottom: 10px"></i> 8 November 2023</p>
+                  <p>Siapa itu M Abdurrohman Alhafidz? Temukan jawabannya dalam artikel ini.</p>
+                </a>
+              </div>
+              <div class="post">
+                <a href="/m-abdurrohman-alhafidz-merintis-bisnis-jasa-layanan-erp-sejak-usia-muda.html">
+                  <img src="assets/img/inspirasi.png" alt="M Abdurrohman Alhafidz, salah satu pengusaha muda yang sukses di Indonesia" class="img-fluid" />
+                  <h6><strong>M Abdurrohman Alhafidz, Merintis Bisnis Jasa Layanan ERP Sejak Usia Muda</strong></h6>
+                  <p class="text-muted" style="display: inline; font-size: 12px">By <span class="fw-bold">Admin</span> |</p>
+                  <p class="text-muted" style="display: inline; font-size: 12px"><i class="fa-regular fa-clock" style="color: #dc3545; font-size: 12px; margin-bottom: 10px"></i> 7 November 2023</p>
+                  <p>Bagaimana M Abdurrohman Alhafidz merintis bisnis jasa layanan ERP? Temukan rahasianya dalam artikel ini.</p></a
+                >
+              </div>
+              <div class="post">
+                <a href="/keren-m-abdurrohman-alhafidz-raih-kesuksesan-sebagai-ceo-di-usia-muda.html">
+                  <img src="assets/img/inspirasi2.png" alt="Rahasia Kesuksesan Hafidz" class="img-fluid" />
+                  <h6><strong>Keren! M Abdurrohman Alhafidz Raih Kesuksesan sebagai CEO di Usia Muda </strong></h6>
+                  <p class="text-muted" style="display: inline; font-size: 12px">By <span class="fw-bold">Admin</span> |</p>
+                  <p class="text-muted" style="display: inline; font-size: 12px"><i class="fa-regular fa-clock" style="color: #dc3545; font-size: 12px; margin-bottom: 10px"></i> 7 November 2023</p>
+                  <p>Bagaimana M Abdurrohman Alhafidz mencapai kesuksesan sejak usia muda? Temukan rahasianya dalam artikel ini.</p></a
+                >
+              </div>
+              <div class="post">
+                <a href="/kisah-perintis-idmetafora-kreativitas-anak-muda-jadi-bisnis-aplikasi-bisnis-terintegrasi.html">
+                  <img src="assets/img/news2.png" alt="M Abdurrohman Alhafidz merintis IDMETAFORA" class="img-fluid" />
+                  <h6><strong>Kisah Perintis IDMETAFORA, Kreativitas Anak Muda Jadi Bisnis Aplikasi Bisnis Terintegrasi </strong></h6>
+                  <p class="text-muted" style="display: inline; font-size: 12px">By <span class="fw-bold">Admin</span> |</p>
+                  <p class="text-muted" style="display: inline; font-size: 12px"><i class="fa-regular fa-clock" style="color: #dc3545; font-size: 12px; margin-bottom: 10px"></i> 8 November 2023</p>
+                  <p>Bagaimana M Abdurrohman Alhafidz merintis IDMETAFORA? Temukan rahasianya dalam artikel ini.</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white background-transparan">
+      <div class="container p-4 pb-0">
+        <section class="">
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">About Us</h6>
+              <p>MAHAFIDZ is IT Solution Company, our main business is in web design & development. We also support our client in digital marketing. MAHAFIDZ Indonesia Teknologi (mahafidz) © 2014-2023</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">links</h6>
+              <p>
+                <a class="text-white" href="index.html">Home</a>
+              </p>
+              <p>
+                <a class="text-white" href="profil.html">Profil</a>
+              </p>
+              <p>
+                <a class="text-white" href="portofolio.html">Portofolio</a>
+              </p>
+              <p>
+                <a class="text-white" href="client.html">Client</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <a href="https://bit.ly/476zOds"
+                ><p><i class="bi bi-building-fill"></i> Jl. Damai No.7C, Sleman</p></a
+              >
+              <a href="mailto:info@mahafidz.com"
+                ><p><i class="bi bi-envelope-fill"></i> info@mahafidz.com</p></a
+              >
+              <a href="tel:+6289664230232"
+                ><p><i class="bi bi-telephone-fill"></i> +62 896 6423 0232</p></a
+              >
+              <a href="https://bit.ly/46gaPmU">
+                <p><i class="bi bi-whatsapp"></i> +62 896 6423 0232</p></a
+              >
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Group Company</h6>
+              <a href="#"> <img style="width: 160px" src="assets/img/logo-metafora-corp.png" alt="Metafora Corp" /></a>
+              <a href="#"> <img style="width: 160px" src="assets/img/metafora-land-long-logo-with-description-png.png" alt="Metafora Land" /></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+
+        <hr class="my-3" />
+
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <div class="p-3">
+                &copy; Copyright 2023 <a href="#"><strong>MAHAFIDZ</strong></a> All Rights Reserved
+              </div>
+            </div>
+
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <a href="https://www.linkedin.com/in/m-abdurrohman-alhafidz-1b96ab63/" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="bi bi-linkedin"></i></a>
+
+              <a href="https://www.facebook.com/al.hafidz.79" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="bi bi-facebook"></i></a>
+
+              <a href="https://www.instagram.com/mahafidzcom/" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="bi bi-instagram"></i></a>
+
+              <a href="https://twitter.com/mahafidzcom" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="bi bi-twitter-x"></i></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <!-- Vanilla Javascript -->
+    <script>
+      // Views Counter
+      if (!localStorage.getItem("visits1")) {
+        localStorage.setItem("visits1", 0);
+      }
+
+      const visitsElement = document.getElementById("visits1");
+      let visits = parseInt(localStorage.getItem("visits1"));
+      visitsElement.textContent = visits;
+
+      const increaseVisits = () => {
+        visits += 1;
+        visitsElement.textContent = visits;
+        localStorage.setItem("visits1", visits);
+      };
+
+      window.onload = increaseVisits;
+    </script>
+    <!-- Script JavaScript -->
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=654a16b3a9ff0f0012c0d91c&product=inline-share-buttons&source=platform" async="async"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script async="async" type="text/javascript">
+      //<![CDATA[
+      $.each($(".post-view[data-id]"), function (a, e) {
+        var l = $(e).parent().find("#postviews").addClass("view-load"),
+          i = new Firebase("https://mahafidz-61b68-default-rtdb.firebaseio.com/pages/id" + $(e).attr("data-id"));
+        i.once("value", function (a) {
+          var n = a.val(),
+            t = !1;
+          null == n && ((n = {}), (n.value = 0), (n.url = window.location.href), (n.id = $(e).attr("data-id")), (t = !0)),
+            l.removeClass("view-load").text(n.value),
+            n.value++,
+            "/" != window.location.pathname && (t ? i.set(n) : i.child("value").set(n.value));
+        });
+      });
+      //]]>
+    </script>
+
+    <!-- Views Counter Firebase -->
+    <script type="application/javascript">
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyAzjnIRF22VGEOLGYjF_oBSJM8F-JXTfTo",
+        authDomain: "mahafidz-61b68.firebaseapp.com",
+        projectId: "mahafidz-61b68",
+        storageBucket: "mahafidz-61b68.appspot.com",
+        messagingSenderId: "87819973629",
+        appId: "1:87819973629:web:c506d792bed5a6b1239f94",
+        measurementId: "G-ZYE5N4RQLL",
+      };
+
+      // Initialize Firebase
+      const app = firebase.initializeApp(firebaseConfig);
+
+      const hitCounter = document.getElementById("visits1");
+      hitCounter.style.display = "none";
+
+      const db = firebase.database().ref("totalHits");
+      db.on("value", (snapshot) => {
+        hitCounter.textContent = snapshot.val();
+      });
+      db.transaction(
+        (totalHits) => totalHits + 1,
+        (error) => {
+          if (error) {
+            console.log(error);
+          } else {
+            hitCounter.style.display = "inline-block";
+          }
+        }
+      );
+      const userCookieName = "returningVisitor";
+      checkUserCookie(userCookieName);
+
+      function checkUserCookie(userCookieName) {
+        const regEx = new RegExp(userCookieName, "g");
+        const cookieExists = document.cookie.match(regEx);
+        if (cookieExists != null) {
+          hitCounter.style.display = "block";
+        } else {
+          createUserCookie(userCookieName);
+          db.transaction(
+            (totalHits) => totalHits + 1,
+            (error) => {
+              if (error) {
+                console.log(error);
+              } else {
+                hitCounter.style.display = "inline-block";
+              }
+            }
+          );
+        }
+      }
+
+      function createUserCookie(userCookieName) {
+        const userCookieValue = "Yes";
+        const userCookieDays = 7;
+        let expiryDate = new Date();
+        expiryDate.setDate(expiryDate.getDate() + userCookieDays);
+        document.cookie = userCookieName + "=" + userCookieValue + "; expires=" + expiryDate.toGMTString() + "path=/";
+      }
+    </script>
+    <script src="https://api.ipify.org?format=jsonp&callback=get_viewers_ip"></script>
+  </body>
+</html>
